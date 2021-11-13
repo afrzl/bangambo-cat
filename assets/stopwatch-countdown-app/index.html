@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/flatly/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+    <title>Minimal Stopwatch & Countdown App Example</title>
+</head>
+<body><div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="https://www.jqueryscript.net/time-clock/stopwatch-countdown-app.html">Download This Plugin</a></li>
+<li><a href="https://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+    <header style="margin-top:150px">
+        <nav class="navbar">
+            <h1>Minimal Stopwatch & Countdown App Example</h1>
+        </nav>
+    </header>
+    <section class="clock">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 input-wrapper">
+                    <div class="input">
+                        <input type="number" id="num" class="form-control" min="0">
+                        <select id="measure" class="form-control">
+                            <option value="0">Select Unit</option>
+                            <option value="s">Seconds</option>
+                            <option value="m">Minutes</option>
+                            <option value="h">Hours</option>
+                        </select>
+                    </div>
+                    <div class="buttons-wrapper">
+                        <button class="btn" id="start-cronometer">Start Stopwatch</button>
+                        <button class="btn" id="start-countdown">Start Countdown</button>
+                    </div>
+                </div>
+                <div id="timer" class="col-12">
+                  <div class="clock-wrapper">
+                      <span class="hours">00</span>
+                      <span class="dots">:</span>
+                      <span class="minutes">00</span>
+                      <span class="dots">:</span>
+                      <span class="seconds">00</span>
+                  </div>
+                </div>
+                <div class="buttons-wrapper">
+                  <button class="btn" id="resume-timer">Resume Timer</button>
+                  <button class="btn" id="stop-timer">Stop Timer</button>
+                  <button class="btn" id="reset-timer">Reset Timer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
